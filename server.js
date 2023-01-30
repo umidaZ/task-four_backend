@@ -152,3 +152,7 @@ app.get("/users", async function (req, res) {
     console.log(error);
   }
 });
+
+app.get("/", (req, res) => {
+  res.send("welcomee to My website");
+});
